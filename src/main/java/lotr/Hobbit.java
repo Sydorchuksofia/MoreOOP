@@ -15,4 +15,7 @@ public class Hobbit extends Character {
     public static void toCry() {
         System.out.println("Hobbit is crying...");
     }
+
+    
+    
 }

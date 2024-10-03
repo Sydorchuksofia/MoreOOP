@@ -19,7 +19,16 @@ public abstract class Character {
     }
 
     public boolean isAlive() {
-        return hp>0;
+        return hp > 0;
+    }
+    
+    public void setHp(int i) {
+        this.hp = Math.max(0, i);
+    }
+    
+    @Override
+    public String toString() {
+        return getClass().getSimpleName() + "{hp=" + hp + ", power=" + power + "}";
     }
 
 }

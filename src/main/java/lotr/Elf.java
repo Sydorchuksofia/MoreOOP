@@ -8,4 +8,5 @@ public class Elf extends Character {
         this.power = 10;
         this.hp = 10;
     }
+    
 }
